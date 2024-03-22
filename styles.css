@@ -1,0 +1,158 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1D1B26;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+  }
+  
+
+  
+  
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login{
+    font-size: 25px;
+  }
+  
+  .navigation-bar {
+    display: flex;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation-bar li {
+    margin-right: 2rem;
+    display: inline-block;
+    padding:10px;
+  }
+  
+  
+  
+  .login,
+  .search {
+    font-size: 0.8rem;
+  }
+  
+  #search-bar {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; 
+  }
+  
+  #search-button {
+    padding: 0.5rem ;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-image: url("https://wallpaperaccess.com/full/1461603.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .hero img{
+    width:250px;
+    height:200px;
+  }
+  .explore-button {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .explore {
+    margin-top: 5rem;
+  }
+  
+  .explore h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color:white;
+  }
+  
+  .destination-grid {
+    display:flex;
+    gap:25%;
+    display: inline-block;
+    color:#00bcd4;
+    width:75%;
+    height: 200px;
+
+
+  }
+  .destination-grid img{
+    width:25%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out  0.5s;
+    cursor:pointer;
+  }
+  .destination-grid img:hover{
+    width:45%;
+  }
+  .plan,
+  .contact {
+    margin-top: 5rem;
+    color:white;
+  }
+
+  
+  .plan h2,
+  .blog h2,
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color:#fff;
+}
+footer{
+    color:#fff;
+    text-align: center;
+}
+
+
+  
