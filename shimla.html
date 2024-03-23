@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shimla</title>
+</head>
+<style>
+
+    .shimla-img{
+        width:100%;
+        height:550px;
+
+    }
+    .shimla-img img{
+        width:100%;
+        height:500px;
+    }
+    .shimla-description{
+        width:100%;
+        height:150px;
+        display: block;
+    }
+    h1{
+        font-size: 40px;
+        font-weight: bold;
+        padding-left: 100px;
+    }
+    .shimla-description p{
+        font-size: 16px;
+        padding-left: 100px;
+        padding-top: 0px;
+
+    }
+    .places-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem; 
+  width: 100%;  
+  background-color:#211C6A ;
+  padding-top: 10px;
+  border-radius: 13px;
+    }
+
+.place {
+  flex: 0 0 25%; 
+  background-color:#59B4C3; 
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  height: 250px;
+}
+
+.place img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 25px;
+}
+
+.place h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.shimla-description h2{
+    padding-left: 50px;
+}
+.mapouter{position:relative;text-align:right;width:100%;height:300px;}
+.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:300px;padding-top: 350px;}
+.gmap_iframe {height:300px!important;}
+
+</style>
+<body>
+    <div class="shimla-img">
+        <img src="https://static.toiimg.com/photo/msid-52005539,width-96,height-65.cms">
+    </div>
+    <div class="shimla-description">
+        <h1>Shimla</h1>
+        <p>City in INDIA</p>
+        <h2>Places to visit</h2>
+        <div class="places-container">
+            <div class="place">
+              <h3>The Mall Road</h3>
+              
+              <img src="https://media1.thrillophilia.com/filestore/l5stwgse3qt889ohvpojpa13ftp0_Mall_Road_Shimla_1.jpg?w=1440&dpr=2" alt="The Mall Road, Shimla">
+            </div>
+        
+            <div class="place">
+              <h3>Indian Institute of Advanced Studies</h3>
+              
+              <img src="https://images.collegedunia.com/public/college_data/images/appImage/25546_65.jpg?h=160&w=320&mode=stretch" alt="Indian Institute of Advanced Studies">
+            </div>
+            <div class="place">
+              <h3>Christ Church</h3>
+              <img src="https://media.gettyimages.com/id/521772698/photo/christ-church-in-shimla-at-himachal-pradesh-india-asia.jpg?s=612x612&w=0&k=20&c=KFLN3ynhMFMDFNVDHQr8AhtDtvv1m6rAVqeXE03uw3w=">
+            </div>
+        
+            </div>
+    </div>
+
+    </div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=567&amp;height=651&amp;hl=en&amp;q=shimla&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <a href="https://strandsgame.net/">Strands</a>
+        </div>
+        </div>
+</body>
+</html>
